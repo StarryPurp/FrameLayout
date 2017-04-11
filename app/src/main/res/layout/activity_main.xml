@@ -11,7 +11,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center_horizontal"
         >
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First"
+            />
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second"
+            />
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third"
+            />
 
     </LinearLayout>
 
@@ -23,26 +42,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            android:background="#ff0000"
-            android:gravity="center_horizontal">
-            <Button
-                android:id="@+id/but1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="First"
-                />
-            <Button
-                android:id="@+id/but2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Second"
-                />
-            <Button
-                android:id="@+id/but3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Third"
-                />
+            android:background="#ff0000">
+
         </LinearLayout>
         <LinearLayout
             android:id="@+id/line2"
